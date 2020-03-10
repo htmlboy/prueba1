@@ -1,0 +1,20 @@
+.hero {
+}
+
+.hero-slide {
+  height: 100vh;
+  position: relative;
+}
+
+.hero img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.hero-text {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}

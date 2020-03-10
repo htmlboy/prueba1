@@ -1,23 +1,9 @@
-/* Base */
-
-* {
-  box-sizing: border-box;
-}
-
-/* Typography */
-
-body {
-  font-family: sans-serif;
-  line-height: 1.5;
-}
-
-h1 {
-  font-size: 30px;
-  margin-bottom: 15px;
-}
-
-p {
-  margin-bottom: 15px;
-}
-
-/* … */
+@import url("reset.css");
+@import url("variables.css");
+@import url("general.css");
+@import url("tipografia.css");
+@import url("reticula.css");
+@import url("projects.css");
+@import url("feed.css");
+@import url("header.css");
+@import url("hero.css");

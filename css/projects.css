@@ -1,0 +1,19 @@
+.project-photo {
+  display: block;
+  margin-bottom: var(--margin-v-s);
+}
+
+.project-caption {
+  font-size: var(--text-base);
+  font-weight: var(--tipo-light);
+}
+
+.projects-double {
+  display: flex;
+}
+
+@media (max-width: 500px) {
+  .projects-double {
+    display: block;
+  }
+}

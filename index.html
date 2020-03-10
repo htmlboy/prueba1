@@ -4,13 +4,86 @@
 		<meta charset="utf-8" />
 		<title>Code base</title>
 		<meta name=viewport content="initial-scale=1.0, width=device-width" />
-		<link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 		<link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,500&display=swap" rel="stylesheet">
 	</head>
 	<body>
-		<h1>Project code base</h1>
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		</p>
+
+    <!-- Aquí va el header/logo/nav -->
+
+    <div class="header">
+      Contenidos de header
+    </div>
+
+    <div class="hero">
+      <div class="hero-slide">
+        <img src="img/LIP-Header.jpg" alt="">
+        <div class="hero-text">
+          Pie de foto
+        </div>
+      </div>
+      <div class="hero-slide">
+        <img src="img/CB-06.jpg" alt="">
+      </div>
+      <div class="hero-slide">
+        <img src="img/MagEze-Thumbs-Home.jpg" alt="">
+      </div>
+      <div class="hero-slide">
+        <img src="img/MagEze-Thumbs-Project-1.jpg" alt="">
+      </div>
+    </div>
+
+    <div class="projects">
+
+      <div class="container top-spacer">
+        <p class="text-intro intro">
+          We are Date of Birth, a Design Agency based in Melbourne, Australia. Our name describes exactly what we stand for — new beginnings.
+          <br>
+          <a href="#">Learn more</a>
+        </p>
+      </div>
+
+      <div class="container top-spacer">
+        <div class="project">
+          <video autoplay muted loop src="video/mivideo.mp4">
+          </video>
+        </div>
+      </div>
+
+      <div class="container top-spacer">
+        <div class="project">
+          <img src="img/MagEze-Thumbs-Home.jpg" class="project-photo" alt="">
+          <div class="project-caption">
+            Mageze — Branding
+          </div>
+        </div>
+      </div>
+
+    </div><!-- cierra .projects -->
+
+    <!-- Aquí va el feed -->
+
+    <div class="feed top-spacer top-padder">
+      <h2>Feed</h2>
+    </div>
+
+    <!-- Aquí va el footer/contacto -->
+
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        $('.hero').slick({
+          pauseOnHover: false,
+          autoplay: true,
+          autoplaySpeed: 2000
+        });
+      });
+    </script>
 	</body>
 </html>

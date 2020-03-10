@@ -1,0 +1,40 @@
+html {
+  /* Font family */
+  --tipo: "Roboto", Arial, sans-serif;
+  --tipo-light: 300;
+  --tipo-normal: 500;
+
+  /* Colores */
+  --white: #ffffff;
+  --black: #111111;
+
+  /* Escala tipográfica */
+  --text-base: 26px;
+  --text-l: 34px;
+
+  /* Espaciados */
+  --margin-v-s: 20px;
+  --margin-v-l: 190px;
+}
+
+@media (max-width: 1000px) {
+  html {
+    /* Escala tipográfica */
+    --text-base: 22px;
+    --text-l: 28px;
+    /* Espaciados */
+    --margin-v-s: 20px;
+    --margin-v-l: 150px;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    /* Escala tipográfica */
+    --text-base: 16px;
+    --text-l: 22px;
+    /* Espaciados */
+    --margin-v-s: 20px;
+    --margin-v-l: 50px;
+  }
+}
